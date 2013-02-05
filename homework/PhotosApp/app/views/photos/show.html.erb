@@ -1,15 +1,13 @@
-<p id="notice"><%= notice %></p>
-
 <p>
   <b>Title:</b>
-  <%= @photo.title %>
+  <%= @photo[:title] %>
 </p>
 
 <p>
   <b>Url:</b>
-  <%= @photo.url %>
+  <%= @photo[:url] %>
 </p>
 
 
-<%= link_to 'Edit', edit_photo_path(@photo) %> |
+
 <%= link_to 'Back', photos_path %>
